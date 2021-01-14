@@ -1,10 +1,10 @@
 # TestConflicts
-for( i=0, j = 0;  i < 10  && j < 10; i++, j++)
+for( i=0, j = 0;  i < 10  && j < 10; i+=2, j++)
 
 for( i=0, 
          j = 0;  
            i < 10  && j < 10; 
-             i++,
+             i+=2,
              /*sfsdfsdf
 sdfsdfsdf
 sdffsdfsd
